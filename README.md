@@ -23,6 +23,17 @@ Configure the root of your repository with the following files and directories. 
 * **__test__/** - contains unit tests
 
 ## Feature Tasks
+## Testing
+#### Greet Module Tests
+* Write a test that expects the greet module to return `null` when you supply non string values
+* Write a test the expects the greet module to return `'hello world'`
+  * This should happen when invoked with `'world'` as the first argument
+
+#### Arithmetic Module Tests
+* Test each method for proper use (invoded with number arguments)
+* Test each method for inproper use (invoded with one or more non-numner arguments)
+
+
 #### Greet Module
 Create a NodeJS module in the lib/ directory named `greet.js` that exports a single function.
 * The `greet` function should have a single parameter (arity of one) that should expect a string as it's input
@@ -37,16 +48,6 @@ Create a NodeJS module in the lib/ directory named `arithmetic.js` that exports 
 * The `sub` method should have an arity of two (define two paramiters)
   * If either argument is a non-number the function should return `null`
   * Else return the second paramiter subtracted from the first paramiter
-
-## Testing
-#### Greet Module Tests
-* Write a test that expects the greet module to return `null` when you supply non string values
-* Write a test the expects the greet module to return `'hello world'`
-  * This should happen when invoked with `'world'` as the first argument
-
-#### Arithmetic Module Tests
-* Test each method for proper use (invoded with number arguments)
-* Test each method for inproper use (invoded with one or more non-numner arguments)
 
 ## Documentation
 In your README.md describe the exported values of each module defined in your lib/ directory. Every function description should include it's airty (expected number of paramiters), the expected data for each paramiter (data-type and limitations), and the it's output behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
