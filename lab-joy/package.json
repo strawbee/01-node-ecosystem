@@ -1,0 +1,15 @@
+{
+  "name": "lab-joy",
+  "version": "1.0.0",
+  "description": "First Tests",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "Joy Hou",
+  "license": "MIT"
+}
