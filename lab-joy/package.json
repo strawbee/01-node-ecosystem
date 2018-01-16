@@ -11,5 +11,8 @@
     "test": "jest --verbose"
   },
   "author": "Joy Hou",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.1.1"
+  }
 }
