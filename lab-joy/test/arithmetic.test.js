@@ -1,7 +1,7 @@
 'use strict';
 
 const arithmetic = require('../lib/arithmetic');
-
+ 
 describe('Arithmetic Module', () => {
     describe('#Add', () => {
         it('should be invoked only with numerical arguments', () => {
